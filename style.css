@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    font-family: 'Istok Web', sans-serif;
+}
+h1{
+       font-size: 50px;
+       margin-left: 5%;
+}
+h3{
+    margin-left: 5%;
+}
+p{
+    color:dimgrey;
+}
+.red{
+    color:brown;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 3%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+    
+
+}
+.top-banner{
+    
+    background-image: url("photo/image/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 8px;
+    color:white;
+    font-weight: 700;
+}
+
+.dream{
+    background-image: url("photo/image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.blog{
+    box-shadow: 10px 10px 50px grey;
+    border-radius: 7px;
+    height: 50%;
+    background-color: white;
+}
+.ext{
+    background-image: url("photo/image/exp-bg.png");
+    background-repeat:no-repeat ;
+    
+    
+    
+}
+#full{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg, lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#stack{
+    border-left: 7px solid;
+    border-image: linear-gradient( 180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
